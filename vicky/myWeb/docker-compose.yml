@@ -12,4 +12,4 @@ services:
       - "8004:8004"
     volumes:
       - .:/app
-    command: gunicorn myWeb.wsgi:application --bind 0.0.0.0:8001 --workers 2
+    command: gunicorn myWeb.wsgi:application --bind 0.0.0.0:8004 --workers 2
