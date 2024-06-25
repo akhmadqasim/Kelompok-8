@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app4:
+    restart: always
+    container_name: vicky
+    environment:
+      - TZ=Asia/Makassar
+    build:
+      context: .
+    ports:
+      - "8004:8004"
+    volumes:
+      - .:/app
+    command: gunicorn myWeb.wsgi:application --bind 0.0.0.0:8001 --workers 2

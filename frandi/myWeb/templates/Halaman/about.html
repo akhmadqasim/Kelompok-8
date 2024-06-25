@@ -1,0 +1,61 @@
+{% extends 'halaman/base.html' %}
+{% load static %}
+{% block content %}
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('{% static 'halaman/assets/img/olga2.jpg' %}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="title">About Us</h1>
+                    <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main main-raised">
+    <div class="container">
+        <div class="about-description text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h5 class="description">Sportify adalah sumber informasi terlengkap untuk semua kebutuhan olahraga Anda. Kami menyediakan berita terkini, analisis mendalam, dan liputan langsung dari berbagai cabang olahraga di seluruh dunia. Baik Anda penggemar sepak bola, basket, tenis, atau olahraga lainnya, kami siap memberikan informasi yang Anda butuhkan.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3, center">
+                <div class="card card-profile card-plain">
+                    <div class="card-avatar">
+                        <a href="#pablo">
+                            <img class="img" src="{% static 'halaman/assets/img/faces/card-profile2-square.jpg' %}" />
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <h4 class="card-title">FRANDI FERDYAN</h4>
+                        <h6 class="category text-muted">CEO / Co-Founder</h6>
+
+                        <p class="card-description">
+                            Semoga berita ini dapat menjadi semangat dalam berolahraga
+                        </p>
+                        <div class="footer">
+                            <a href="#pablo" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-whatsapp"></i></a>
+                            <a href="#pablo" class="btn btn-just-icon btn-simple btn-facebook"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-just-icon btn-simple btn-google"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-team team-1">
+            <div  class="row" >
+                <div class="col-md-8 col-md-offset-2 text-center " style="margin-top:-100px">
+                    <h2 class="title">MISI KAMI</h2>
+                    <h5 class="description">menyajikan berita olahraga yang akurat, cepat, dan menarik. Kami berkomitmen untuk memberikan informasi terkini dan terupdate agar para penggemar olahraga tidak ketinggalan momen penting dari dunia olahraga.</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+from django.contrib import admin
+from berita.models import Artikel, Kategori
+# from berita.models import Artikel, Kategori
+
+# Register your models here.
+
+admin.site.register(Kategori)
+
+class ArtikelAdmin(admin.ModelAdmin):
+    list_display = ['judul', 'kategori', 'author']
+    search_fields = ['judul']
+    admin.site.register(Artikel)

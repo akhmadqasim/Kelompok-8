@@ -1,0 +1,61 @@
+{% extends 'halaman/base.html' %}
+{% load static %}
+{% block content %}
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('{% static 'halaman/assets/img/bg9.jpg' %}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="title">About Us</h1>
+                    <h4></h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main main-raised">
+    <div class="container">
+        <div class="about-description text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h5 class="description">Selamat datang di BacaAku.com adalah Platform Media Berita Digital Terkemuka di Indonesia. Memanfaatkan data dan inovasi untuk menyampaikan konten segar kepada jutaan pembaca setiap hari.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="about-team team-1">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h2 class="title">Our Leaders</h2>
+                    <h5 class="description"></h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3-center">
+                    <div class="card card-profile card-plain">
+                        <div class="card-avatar">
+                            <a href="#pablo">
+                                <img class="img" src="{% static 'halaman/assets/img/faces/marc.jpg' %}" />
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h4 class="card-title">Ryfky Putra Ramadhan</h4>
+                            <h6 class="category text-muted">CEO / Co-Founder</h6>
+
+                            <p class="card-description">
+                                Semoga sukses dan menjadi orang yang berguna
+                            </p>
+                            <div class="footer">
+                                {% comment %} <a href="" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-whatsapp"></i></a> {% endcomment %}
+                                <a href="https://www.facebook.com/profile.php?id=100067664160061" class="btn btn-just-icon btn-simple btn-facebook"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/rifkyptra/" class="btn btn-just-icon btn-simple btn-google"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
