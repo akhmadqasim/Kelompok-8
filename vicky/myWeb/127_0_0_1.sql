@@ -18,10 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `myweb`
+-- Database: `vicky`
 --
-CREATE DATABASE IF NOT EXISTS `myweb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `myweb`;
 
 -- --------------------------------------------------------
 
